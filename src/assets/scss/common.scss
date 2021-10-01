@@ -1,0 +1,30 @@
+@use './variables';
+
+
+
+// Google font 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+// Reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+// Body
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+
+// Contianers
+.container {
+    max-width: $size_Container;
+    margin: auto;
+}
