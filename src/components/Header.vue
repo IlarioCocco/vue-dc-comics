@@ -1,7 +1,23 @@
 <template>
   <div class="Header">
+      <div class="logo">
+          <img src="../assets/img/dc-logo.png" alt="logo dc">
+      </div>
       <div>
-          <img src="" alt="">
+        <nav>
+          <ul class="lista">
+            <li>charaters</li>
+            <li>comics</li>
+            <li>movies</li>
+            <li>tv</li>
+            <li>games</li>
+            <li>collectibles</li>
+            <li>videos</li>
+            <li>fans</li>
+            <li>news</li>
+            <li>shop</li>
+          </ul>
+        </nav>
       </div>
   </div>
 </template>
@@ -27,10 +43,19 @@ export default {
 <style scoped lang="scss">
 .Header {
     text-align: center;
-    height: 60px;
     background: rgb(201, 201, 201);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
+.logo{
+    padding: 20px;
+}
 
-
+.lista {
+    display: inline-flex;
+    padding: 10px;
+    padding-left: 10px;
+}
 </style>
