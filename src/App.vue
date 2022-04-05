@@ -1,6 +1,10 @@
 <template>
   <div id="app">
     <Header/>
+    <main>
+      <Main/>
+    </main>
+    <Footer :bgImage="require('./assets/img/footer-bg.jpg')"/>
   </div>
 </template>
 
@@ -9,13 +13,16 @@
 
 
 <script>
-import Header from '@/components/Header.vue'
+import Header from './components/Header.vue';
+import Main from './components/Main.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-
+    Main,
+    Footer,
   }
 }
 </script>
@@ -26,7 +33,6 @@ export default {
 
 
 <style lang="scss">
-@import "./assets/scss/variabili.scss";
-
-
+@import "./assets/scss/common.scss";
+@import "./assets/scss/variables.scss";
 </style>
