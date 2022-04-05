@@ -54,7 +54,7 @@
                    <button>sign-ip now!</button>
                 </div>
                 <div class="follow">
-                    <h2>follow us</h2>
+                    <h2 class="fol">follow us</h2>
                     <div class="social">
                         <img src="../assets/img/footer-facebook.png" alt="">
                         <img src="../assets/img/footer-twitter.png" alt="">
@@ -163,9 +163,13 @@ button {
     align-items: center;
     font-weight: bold;
     font-size: 15px;
+
+    .fol {
+        padding: 0px 20px 0px 0px; 
+    }
 }
 
 .social img {
-    padding: 10px 0px 10px 10px;
+    padding: 20px 0px 20px 10px;
 }
 </style>
