@@ -38,7 +38,7 @@ export default {
                   current: false,
                 },
                 {
-                  text: "dc mechandise",
+                  text: "dc merchandise",
                   url: "#",
                   current: true,
                 },
@@ -74,14 +74,15 @@ export default {
     margin: auto;
     display: flex;
     justify-content: flex-start;
-    // border: 1px solid rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
     align-items: center;
+    padding: 30px 0px 30px 0px;
 }
 
 .content {
   background-color: rgb(0, 0, 0);
   color: white;
-  padding: 30px 0px 30px 0px; 
+  padding: 0px 0px 0px 0px; 
   display: flex;
   font-size: 12px;
 }
@@ -92,21 +93,17 @@ export default {
   margin: auto;
   display: flex;
   justify-content: center;
-  // border: 1px solid rgb(240, 176, 0);
+  border: 1px solid rgb(240, 176, 0);
   align-items: center;
   padding: 0px 0px 0px 0px;
 }
 
 .main {
   background: rgb(43, 117, 255);
-  // display: flex;
-  // justify-content: space-between;
-  // align-items: center;
 
     a {
     display: flex;
     padding: 50px 80px 50px 80px;
-    // margin:  50px 100px 50px 100px;
     color: white;
 
     &.active {

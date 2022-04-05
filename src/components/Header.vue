@@ -88,8 +88,9 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    // border: 1px solid rgb(0, 255, 47);
+    border: 1px solid rgb(0, 0, 0);
     align-items: center;
+    padding: 0px 0px 0px 0px;
 }
 
 header {
@@ -97,7 +98,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: rgb(255, 255, 255);
-  padding: 5px 0px 0px 0px;
+  
 
     a {
     display: inline-flex;
