@@ -5,42 +5,41 @@
                 <div class="boxListato">
                     <ul>
                         <h3 id="titoli">dc comics</h3>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova</li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
                         <h3 id="titoli">shop</h3>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
                     </ul>
-                    <ul>
+                    <ul class="ul">
                         <h3 id="titoli">dc</h3>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
                     </ul>
                     <ul>
                         <h3 id="titoli">sites</h3>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
-                        <li>ciao 123 prova1</li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">ciao 123 prova1</a></li>
                     </ul>
                 </div>
                 <div class="dc">
@@ -108,6 +107,9 @@ export default {
 
 
 
+
+
+
 footer {
     background-position: top;
     background-size: cover;
@@ -117,10 +119,15 @@ footer {
 
 ul {
     color: white;
-    padding: 30px 50px 60px 0px;
+    padding: 30px 40px 60px 0px;
     font-size: 10px;
     line-height: 20px;
+
+        &.ul {
+        padding: 30px 70px 60px 0px;
+    }
 }
+
 
 .dc {
     position: absolute;
@@ -156,6 +163,7 @@ button {
     text-transform:uppercase;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .follow {
@@ -173,5 +181,6 @@ button {
 
 .social img {
     padding: 20px 0px 20px 10px;
+    cursor: pointer;
 }
 </style>

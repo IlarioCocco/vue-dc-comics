@@ -4,8 +4,8 @@
             <h2 class="content">
                 <div class="box2">
                   <i class="fa-solid fa-arrow-right"></i>
-                  <h2 id="content">Content goes here</h2>
-                 <i class="fa-solid fa-arrow-left"></i>
+                    <h2 id="content">Content goes here</h2>
+                  <i class="fa-solid fa-arrow-left"></i>
                 </div>
             </h2>
         </div>
@@ -14,6 +14,7 @@
                 <ul class="lista">
                     <li v-for="(link, i) in menu" :key="i">
                         <a :href="link.url" :class="{active : link.current}">
+                          <img class="shop" :src="require(`@/assets/img/` + link.url)" alt="">
                         {{link.text}}
                         </a>
                     </li>
@@ -34,27 +35,27 @@ export default {
             menu: [
                 {
                   text: "digital comics",
-                  url: "#",
+                  url: "buy-comics-digital-comics.png",
                   current: false,
                 },
                 {
                   text: "dc merchandise",
-                  url: "#",
+                  url: "buy-comics-merchandise.png",
                   current: true,
                 },
                 {
                   text: "subscription",
-                  url: "#",
+                  url: "buy-comics-subscriptions.png",
                   current: false,
                 },
                 {
                   text: "comic shop locator",
-                  url: "#",
+                  url: "buy-comics-shop-locator.png",
                   current: false,
                 },
                 {
                   text: "dc power visa",
-                  url: "#",
+                  url: "buy-dc-power-visa.svg",
                   current: false,
                 },
             ]
@@ -98,12 +99,19 @@ export default {
   padding: 0px 0px 0px 0px;
 }
 
+.shop{
+  width: 40px;
+  display: flex;
+  margin: 0px  20px  0px  0px;
+}
+
 .main {
   background: rgb(43, 117, 255);
 
     a {
     display: flex;
-    padding: 50px 80px 50px 80px;
+    align-items: center;
+    padding: 40px 55px 40px 50px;
     color: white;
 
     &.active {
@@ -114,6 +122,7 @@ export default {
 
 .lista {
   display: flex;
+  align-items: center;
   font-size: 10px;
   text-transform:uppercase;
 }
