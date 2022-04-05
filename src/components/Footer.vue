@@ -93,22 +93,17 @@ export default {
     margin: auto;
     display: flex;
     justify-content: start;
-    border: 1px solid rgb(255, 0, 0);
+    // border: 1px solid rgb(255, 0, 0);
     align-items: center;
     position: relative;
 
         & .boxListato {
         display: flex;
         justify-content: start;
-        border: 1px solid rgb(229, 255, 0);
+        // border: 1px solid rgb(229, 255, 0);
         align-items: top;
     }
 }
-
-
-
-
-
 
 footer {
     background-position: top;
@@ -141,7 +136,7 @@ ul {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(20, 211, 55);
+    // border: 1px solid rgb(20, 211, 55);
     align-items: center;
     padding: 20px 0px 20px 0px;
 }

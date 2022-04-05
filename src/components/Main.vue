@@ -75,7 +75,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: flex-start;
-    border: 1px solid rgb(255, 255, 255);
+    // border: 1px solid rgb(255, 255, 255);
     align-items: center;
     padding: 30px 0px 30px 0px;
 }
@@ -94,7 +94,7 @@ export default {
   margin: auto;
   display: flex;
   justify-content: center;
-  border: 1px solid rgb(240, 176, 0);
+  // border: 1px solid rgb(240, 176, 0);
   align-items: center;
   padding: 0px 0px 0px 0px;
 }
