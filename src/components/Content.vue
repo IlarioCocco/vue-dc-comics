@@ -11,8 +11,9 @@
                     <div class="box" v-for="(todo, i) in mainImg" :key="i">
                         <!-- <img :src="require(`@/assets/img/` + todo.url)" alt=""> path interno con require -->
                         <img :src="todo.thumb" :alt="todo.series">
-                        <!-- {{todo.text}} -->
+                        <h3 class="titolo">{{todo.series}}</h3>
                     </div>
+                    
                 </section>
 
                 </div>
@@ -122,7 +123,7 @@ export default {
 
 .main {
     color: white;
-    background-color: rgba(0, 0, 0, 0.929);
+    background-color: rgb(0, 0, 0);
     // height: 100vh;
     padding: 30px 0px 30px 0px;
     display: flex;
@@ -137,6 +138,14 @@ export default {
 
 img {
     width: 100%;
+    position: relative;
+}
+
+.titolo{
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 15px;
+    z-index: -1;
 }
 
 </style>
