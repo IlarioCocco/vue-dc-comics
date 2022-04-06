@@ -144,7 +144,7 @@ img {
 .titolo{
     position: absolute;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 14px;
     z-index: -1;
     text-align: center;
 }
