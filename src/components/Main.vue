@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div>
+        <!-- <div>
             <h2 class="content">
                 <div class="box2">
                   <i class="fa-solid fa-arrow-right"></i>
@@ -8,7 +8,7 @@
                   <i class="fa-solid fa-arrow-left"></i>
                 </div>
             </h2>
-        </div>
+        </div> -->
         <div class="main">
             <div class="box3">
                 <ul class="lista">
