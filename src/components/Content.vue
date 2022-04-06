@@ -138,14 +138,15 @@ export default {
 
 img {
     width: 100%;
-    position: relative;
+   
 }
 
 .titolo{
     position: absolute;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 13px;
     z-index: -1;
+    text-align: center;
 }
 
 </style>
