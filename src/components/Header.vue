@@ -88,7 +88,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    // border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }

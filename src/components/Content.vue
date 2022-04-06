@@ -125,7 +125,7 @@ export default {
     color: white;
     background-color: rgb(0, 0, 0);
     // height: 100vh;
-    padding: 30px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
     display: flex;
     justify-content: center;
     font-size: 20px;

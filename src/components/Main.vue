@@ -1,14 +1,10 @@
 <template>
     <main>
-        <!-- <div>
-            <h2 class="content">
-                <div class="box2">
-                  <i class="fa-solid fa-arrow-right"></i>
-                    <h2 id="content">Content goes here</h2>
-                  <i class="fa-solid fa-arrow-left"></i>
-                </div>
-            </h2>
-        </div> -->
+        <div class="load">
+          <div class="box2">
+            <button>load more</button>
+          </div>
+        </div>
         <div class="main">
             <div class="box3">
                 <ul class="lista">
@@ -74,8 +70,8 @@ export default {
     height: 100%;
     margin: auto;
     display: flex;
-    justify-content: flex-start;
-    // border: 1px solid rgb(255, 255, 255);
+    justify-content: center;
+    // border: 1px solid rgb(255, 0, 0);
     align-items: center;
     padding: 30px 0px 30px 0px;
 }
@@ -86,6 +82,8 @@ export default {
   padding: 0px 0px 0px 0px; 
   display: flex;
   font-size: 12px;
+
+
 }
 
 .box3 {
@@ -125,5 +123,21 @@ export default {
   align-items: center;
   font-size: 10px;
   text-transform:uppercase;
+}
+
+.load {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+button {
+    background-color: rgb(43, 117, 255);
+    padding: 15px 45px;
+    color: white;
+    text-transform:uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
 }
 </style>
