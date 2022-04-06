@@ -14,7 +14,7 @@
                 <ul class="lista">
                     <li v-for="(link, i) in menu" :key="i">
                         <a :href="link.url" :class="{active : link.current}">
-                          <img class="shop" :src="require(`@/assets/img/` + link.url)" alt="">
+                          <img class="shop" :src="require(`@/assets/img/` + link.url)" alt="imagini shop">
                         {{link.text}}
                         </a>
                     </li>

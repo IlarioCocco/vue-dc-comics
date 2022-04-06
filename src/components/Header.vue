@@ -29,7 +29,7 @@ export default {
                 {
                   text: "charaters",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "comics",
@@ -39,37 +39,37 @@ export default {
                 {
                   text: "movies",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "tv",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "collectibles",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "videos",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "fans",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "news",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "shop",
                   url: "#",
-                  current: false,
+                  current: true,
                 },
             ]
         }
@@ -99,15 +99,17 @@ header {
   align-items: center;
   background: rgb(255, 255, 255);
   
+  
 
     a {
     display: inline-flex;
-    padding: 45px 0px 45px 0px;
+    padding: 50px 0px 45px 0px;
     margin: 0px 0px 0px 50px;
     text-decoration: none;
     color: black;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
 
-    &.active {
+    &.active:hover {
       color: rgb(0, 162, 255);
       border-bottom: 5px solid  rgb(0, 162, 255);
       max-width: 100%;
