@@ -5,41 +5,38 @@
                 <div class="boxListato">
                     <ul>
                         <h3 id="titoli">dc comics</h3>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">Characters</a></li>
+                        <li><a href="#">Comics</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">News</a></li>
                         <h3 id="titoli">shop</h3>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">Shop DC</a></li>
+                        <li><a href="#">Shop DC Collectibles</a></li>
                     </ul>
                     <ul class="ul">
                         <h3 id="titoli">dc</h3>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">Terms Of Use</a></li>
+                        <li><a href="#">Privacy policy (New)</a></li>
+                        <li><a href="#">Ad Choices</a></li>
+                        <li><a href="#">Adversting</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Subscription</a></li>
+                        <li><a href="#">Talent Workshops1</a></li>
+                        <li><a href="#">CPSC Certificates</a></li>
+                        <li><a href="#">Ratings1</a></li>
+                        <li><a href="#">Stop Help</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                     <ul>
                         <h3 id="titoli">sites</h3>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
-                        <li><a href="#">ciao 123 prova1</a></li>
+                        <li><a href="#">DC</a></li>
+                        <li><a href="#">MAD Magazine</a></li>
+                        <li><a href="#">DC Kids</a></li>
+                        <li><a href="#">DC Universe</a></li>
+                        <li><a href="#">DC power Visa</a></li>
                     </ul>
                 </div>
                 <div class="dc">
@@ -50,7 +47,7 @@
         <div class="footerDown">
             <div class="box5 footerDown">
                 <div>
-                   <button>sign-ip now!</button>
+                   <button>sign-up now!</button>
                 </div>
                 <div class="follow">
                     <h2 class="fol">follow us</h2>

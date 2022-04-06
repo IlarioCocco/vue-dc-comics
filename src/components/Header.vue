@@ -88,7 +88,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(0, 0, 0);
+    // border: 1px solid rgb(0, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }
@@ -104,7 +104,7 @@ header {
     a {
     display: inline-flex;
     padding: 50px 0px 45px 0px;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 40px;
     text-decoration: none;
     color: black;
     border-bottom: 5px solid rgba(0, 0, 0, 0);
@@ -124,7 +124,8 @@ header {
 .lista {
   display: flex;
   list-style: none;
-  font-size: 10px;
+  font-size: 12px;
   text-transform:uppercase;
+  font-weight: bold;
 }
 </style>
