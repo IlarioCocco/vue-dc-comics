@@ -6,15 +6,15 @@
             <!--<i class="fa-solid fa-arrow-right"></i>
                     <h2 id="content">Content goes here</h2>
                 <i class="fa-solid fa-arrow-left"></i> -->
-
+                
                     <section class="container">
-                        <div class="box" v-for="(todo, i) in fumetti" :key="i">
+                        <!-- <div class="box" v-for="(todo, i) in comics" :key="i">
                             <img :src="todo.thumb" :alt="todo.series">
                             <h3 class="titolo">{{todo.series}}</h3>
-                        </div>
+                        </div> -->
+                        <Comic v-for="(todo, i) in comics" :key="i" :dc="todo"/>
                     </section>
-
-                    <Comic v-for="(todo, i) in fumetti" :key="i"/>
+                    
                 </div>
             </div>
         </div>
@@ -28,12 +28,12 @@
 import Comic from '../components/Comic.vue';
 export default {
   name: 'Comics',
-    components: {
-    Comic,
+  components: {
+    Comic
   },
    data() {
         return {
-             fumetti: [
+             comics: [
                 {
                     thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
                     price: "$19.99",
@@ -121,7 +121,7 @@ export default {
     width: 66%;
     height: 100%;
     margin: auto;
-    border: 1px solid rgb(0, 119, 255);
+    // border: 1px solid rgb(0, 119, 255);
 }
 
 .main {
@@ -129,9 +129,10 @@ export default {
     background-color: rgb(0, 0, 0);
     // height: 100vh;
     padding: 50px 0px 30px 0px;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     font-size: 20px;
+    // border: 1px solid rgb(85, 255, 0);
 }
 
 .container {
@@ -139,16 +140,41 @@ export default {
     display: flex;
 }
 
-img {
-    width: 100%;
-   
-}
+// img {
+//     width: 100%;
+// }
 
-.titolo{
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 14px;
-    z-index: -1;
-    text-align: center;
-}
+// .titolo{
+//     position: absolute;
+//     text-transform: uppercase;
+//     font-size: 14px;
+//     z-index: -1;
+//     text-align: center;
+// }
+
+// .box {
+//     width: calc(100% / 6 - 20px);
+//     margin: 10px 10px 10px 10px;
+//     // width: calc(100% / 4 - 0px);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     color: white;
+//     // padding: 10px 10px 10px 10px;
+//     // border: 1px solid rgba(255, 255, 255, 0.205);
+//     // background-color: rgba(116, 116, 116, 0);
+
+//     position: relative;
+//     clip-path: inset(0% 0% 0% 0%);
+    
+//     & :hover {
+//         // font-size: 55px;
+//         width: 95%;
+//         cursor: pointer;
+//         border: 1px solid rgb(255, 255, 255); 
+//         transition: 0.3s;
+//         opacity: 25%;
+//     }
+// }
+
 </style>
