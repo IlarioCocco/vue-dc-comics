@@ -1,23 +1,22 @@
 <template>
     <main>
         <div>
-            <h2 class="main">
+            <div class="main">
                 <div class="box2">
             <!--<i class="fa-solid fa-arrow-right"></i>
                     <h2 id="content">Content goes here</h2>
                 <i class="fa-solid fa-arrow-left"></i> -->
 
-                <section class="container">
-                    <div class="box" v-for="(todo, i) in mainImg" :key="i">
-                        <!-- <img :src="require(`@/assets/img/` + todo.url)" alt=""> path interno con require -->
-                        <img :src="todo.thumb" :alt="todo.series">
-                        <h3 class="titolo">{{todo.series}}</h3>
-                    </div>
-                    
-                </section>
+                    <section class="container">
+                        <div class="box" v-for="(todo, i) in fumetti" :key="i">
+                            <img :src="todo.thumb" :alt="todo.series">
+                            <h3 class="titolo">{{todo.series}}</h3>
+                        </div>
+                    </section>
 
+                    <Comic v-for="(todo, i) in fumetti" :key="i"/>
                 </div>
-            </h2>
+            </div>
         </div>
     </main>
 </template>
@@ -26,11 +25,15 @@
 
 
 <script>
+import Comic from '../components/Comic.vue';
 export default {
-  name: 'Content',
+  name: 'Comics',
+    components: {
+    Comic,
+  },
    data() {
         return {
-             mainImg: [
+             fumetti: [
                 {
                     thumb: "https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX",
                     price: "$19.99",
@@ -118,7 +121,7 @@ export default {
     width: 66%;
     height: 100%;
     margin: auto;
-    // border: 1px solid rgb(0, 119, 255);
+    border: 1px solid rgb(0, 119, 255);
 }
 
 .main {
@@ -129,11 +132,11 @@ export default {
     display: flex;
     justify-content: center;
     font-size: 20px;
+}
 
-    .container {
+.container {
     flex-wrap: wrap;
     display: flex;
-    }
 }
 
 img {
@@ -148,5 +151,4 @@ img {
     z-index: -1;
     text-align: center;
 }
-
 </style>
