@@ -111,14 +111,21 @@ footer {
 
 ul {
     color: white;
-    padding: 30px 40px 60px 0px;
+    padding: 30px 50px 60px 0px;
     font-size: 10px;
     line-height: 20px;
 
         &.ul {
-        padding: 30px 70px 60px 0px;
+        padding: 30px 50px 60px 0px;
     }
 }
+
+#titoli {
+    font-size: 20px;
+    padding: 10px 0px 20px 0px;
+    text-transform:uppercase;
+}
+
 
 
 .dc {
