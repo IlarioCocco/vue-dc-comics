@@ -8,13 +8,6 @@
 
 
 
-
-
-
-
-
-
-
 <script>
 export default {
     name: "Comic",
@@ -22,9 +15,6 @@ export default {
 
 }
 </script>
-
-
-
 
 
 
@@ -54,7 +44,6 @@ img {
     // padding: 10px 10px 10px 10px;
     // border: 1px solid rgba(255, 255, 255, 0.205);
     // background-color: rgba(116, 116, 116, 0);
-
     position: relative;
     clip-path: inset(0% 0% 0% 0%);
     
@@ -62,8 +51,7 @@ img {
         // font-size: 55px;
         width: 95%;
         cursor: pointer;
-        border: 1px solid rgb(255, 255, 255); 
-        transition: 0.3s;
+        border: 5px solid rgb(255, 255, 255); 
         opacity: 25%;
     }
 }
