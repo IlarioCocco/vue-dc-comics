@@ -71,7 +71,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: center;
-    // border: 1px solid rgb(255, 0, 0);
+    // border: 5px solid rgb(133, 111, 111);
     align-items: center;
     padding: 30px 0px 30px 0px;
 }
@@ -107,7 +107,8 @@ export default {
   background: rgb(43, 117, 255);
 
     a {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 40px 55px 40px 50px;
     color: white;
@@ -119,8 +120,8 @@ export default {
 }
 
 .lista {
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
   font-size: 10px;
   text-transform:uppercase;
 }
@@ -158,6 +159,12 @@ button {
       color: rgb(0, 23, 54);
     }
   }
+}
+.lista {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  text-transform:uppercase;
 }
 
 
