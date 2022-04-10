@@ -108,8 +108,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background: rgb(0, 0, 0);
-  
-  
 
     a {
     display: none;
@@ -142,7 +140,6 @@ header {
 
 // responsive
 @media screen and (min-width: 1400px){
-
   .box1 {
     width: 65%;
     height: 100%;
@@ -163,8 +160,6 @@ header {
   justify-content: space-between;
   align-items: center;
   background: rgb(255, 255, 255);
-  
-  
 
     a {
     display: inline-flex;
@@ -182,18 +177,17 @@ header {
   }
 }
 
-.logo{
-  width: 90%;
-  display: block;
-}
+  .logo{
+    width: 90%;
+    display: block;
+  }
 
-.lista {
-  display: flex;
-  list-style: none;
-  font-size: 12px;
-  text-transform:uppercase;
-  font-weight: bold;
-}
-
+  .lista {
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
 } 
 </style>

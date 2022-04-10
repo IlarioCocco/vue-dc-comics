@@ -177,15 +177,14 @@ export default {
 //     }
 // }
 
+// responsive
 @media screen and (min-width: 1400px) {
-
-    .box2 {
-    width: 66%;
-    height: 100%;
-    margin: auto;
-    // border: 1px solid rgb(0, 119, 255);
-}
-   
+        .box2 {
+        width: 66%;
+        height: 100%;
+        margin: auto;
+        // border: 1px solid rgb(0, 119, 255);
+    }
 }
 </style>
 

@@ -145,7 +145,6 @@ button {
 
 // responsive
 @media screen and (min-width: 1400px){
-
   .main {
   background: rgb(43, 117, 255);
 
@@ -160,13 +159,11 @@ button {
     }
   }
 }
-.lista {
-  display: flex;
-  align-items: center;
-  font-size: 10px;
-  text-transform:uppercase;
-}
-
-
+  .lista {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    text-transform:uppercase;
+  }
 } 
 </style>

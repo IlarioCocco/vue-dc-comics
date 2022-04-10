@@ -185,8 +185,8 @@ button {
     cursor: pointer;
 }
 
+// responsive
 @media screen and (min-width: 1400px) {
-
     .dc {
     display: block;
     position: absolute;
@@ -215,17 +215,16 @@ button {
 }
 
 
-ul {
+    ul {
     color: white;
     padding: 30px 50px 60px 0px;
     font-size: 10px;
     line-height: 20px;
     // border: 5px solid rgb(255, 0, 0);
 
-        &.ul {
-        padding: 30px 50px 60px 0px;
+            &.ul {
+            padding: 30px 50px 60px 0px;
+        }
     }
-}
-    
 }
 </style>
