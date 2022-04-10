@@ -36,7 +36,7 @@ img {
 .box {
     // width: calc(100% / 6 - 20px);
     margin: 5px 5px 5px 5px;
-    width: calc(100% / 4 - 10px);
+    width: calc(100% / 2 - 10px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -56,7 +56,16 @@ img {
     }
 }
 
-// responsive
+// responsive 580
+@media screen and (min-width: 580px){
+    .box {
+        width: calc(100% / 4 - 20px);
+        margin: 10px 10px 10px 10px;
+        // width: calc(100% / 4 - 0px);
+    }
+}
+
+// responsive 1400
 @media screen and (min-width: 1400px){
     .box {
         width: calc(100% / 6 - 20px);
