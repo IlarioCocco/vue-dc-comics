@@ -148,7 +148,7 @@ ul {
 }
 
 .footerDown {
-    background-color:  rgb(32, 32, 32);
+    background-color:  rgb(0, 0, 0);
     z-index: 1;
     position: relative;
     display: flex;
@@ -226,5 +226,14 @@ button {
             padding: 30px 50px 60px 0px;
         }
     }
+
+    .footerDown {
+    background-color:  rgb(32, 32, 32);
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
 }
 </style>

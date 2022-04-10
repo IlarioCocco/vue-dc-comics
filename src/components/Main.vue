@@ -104,7 +104,7 @@ export default {
 }
 
 .main {
-  background: rgb(43, 117, 255);
+  background: rgb(0, 0, 0);
 
     a {
     display: flex;
