@@ -118,7 +118,7 @@ export default {
 
 <style lang="scss" scoped>
 .box2 {
-    width: 66%;
+    width: 100%;
     height: 100%;
     margin: auto;
     // border: 1px solid rgb(0, 119, 255);
@@ -177,4 +177,15 @@ export default {
 //     }
 // }
 
+@media screen and (min-width: 1400px) {
+
+    .box2 {
+    width: 66%;
+    height: 100%;
+    margin: auto;
+    // border: 1px solid rgb(0, 119, 255);
+}
+   
+}
 </style>
+
