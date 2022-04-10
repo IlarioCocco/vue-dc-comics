@@ -112,8 +112,9 @@ footer {
 ul {
     color: white;
     padding: 30px 50px 60px 0px;
-    font-size: 10px;
+    font-size: 0px;
     line-height: 20px;
+    // border: 5px solid rgb(255, 0, 0);
 
         &.ul {
         padding: 30px 50px 60px 0px;
@@ -121,7 +122,7 @@ ul {
 }
 
 #titoli {
-    font-size: 20px;
+    font-size: 0px;
     padding: 10px 0px 20px 0px;
     text-transform:uppercase;
 }
@@ -129,6 +130,7 @@ ul {
 
 
 .dc {
+    display: none;
     position: absolute;
     padding: 0px 0px 0px 0px;
     right: 0;
@@ -171,7 +173,7 @@ button {
     display: flex;
     align-items: center;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0px;
 
     .fol {
         padding: 0px 20px 0px 0px; 
@@ -181,5 +183,49 @@ button {
 .social img {
     padding: 20px 0px 20px 10px;
     cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) {
+
+    .dc {
+    display: block;
+    position: absolute;
+    padding: 0px 0px 0px 0px;
+    right: 0;
+}
+
+.follow {
+    color: rgb(43, 117, 255);
+    text-transform:uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+
+    .fol {
+        padding: 0px 20px 0px 0px; 
+    }
+}
+
+
+#titoli {
+    font-size: 20px;
+    padding: 10px 0px 20px 0px;
+    text-transform:uppercase;
+}
+
+
+ul {
+    color: white;
+    padding: 30px 50px 60px 0px;
+    font-size: 10px;
+    line-height: 20px;
+    // border: 5px solid rgb(255, 0, 0);
+
+        &.ul {
+        padding: 30px 50px 60px 0px;
+    }
+}
+    
 }
 </style>

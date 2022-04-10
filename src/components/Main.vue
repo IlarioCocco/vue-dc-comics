@@ -92,7 +92,7 @@ export default {
   margin: auto;
   display: flex;
   justify-content: center;
-  // border: 1px solid rgb(240, 176, 0);
+  // border: 5px solid rgb(240, 84, 0);
   align-items: center;
   padding: 0px 0px 0px 0px;
 }
@@ -107,7 +107,7 @@ export default {
   background: rgb(43, 117, 255);
 
     a {
-    display: flex;
+    display: none;
     align-items: center;
     padding: 40px 55px 40px 50px;
     color: white;
@@ -140,4 +140,26 @@ button {
     border: none;
     cursor: pointer;
 }
+
+
+// responsive
+@media screen and (min-width: 1400px){
+
+  .main {
+  background: rgb(43, 117, 255);
+
+    a {
+    display: flex;
+    align-items: center;
+    padding: 40px 55px 40px 50px;
+    color: white;
+
+    &.active {
+      color: rgb(0, 23, 54);
+    }
+  }
+}
+
+
+} 
 </style>

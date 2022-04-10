@@ -3,6 +3,7 @@
     <div class="box1">
         <div>
           <img class="logo" src="../assets/img/dc-logo.png" alt="logo dc">
+          <i class="fa-solid fa-bars"></i>
         </div>
         <nav>
           <ul class="lista">
@@ -93,6 +94,70 @@ export default {
     padding: 0px 0px 0px 0px;
 }
 
+.fa-bars {
+  display: block;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  font-size: 50px;
+  color: rgb(44, 121, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  
+  
+
+    a {
+    display: none;
+    padding: 50px 0px 45px 0px;
+    margin: 0px 0px 0px 40px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+
+    &.active:hover {
+      color: rgb(0, 162, 255);
+      border-bottom: 5px solid  rgb(0, 162, 255);
+      max-width: 100%;
+    }
+  }
+}
+
+.logo{
+  width: 90%;
+  display: none;
+}
+
+.lista {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+
+// responsive
+@media screen and (min-width: 1400px){
+
+  .box1 {
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    // border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+}
+
+.fa-bars {
+  display: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -119,6 +184,7 @@ header {
 
 .logo{
   width: 90%;
+  display: block;
 }
 
 .lista {
@@ -128,4 +194,6 @@ header {
   text-transform:uppercase;
   font-weight: bold;
 }
+
+} 
 </style>
