@@ -32,7 +32,7 @@ export default {
                 {
                   text: "digital comics",
                   url: "buy-comics-digital-comics.png",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "dc merchandise",
@@ -42,17 +42,17 @@ export default {
                 {
                   text: "subscription",
                   url: "buy-comics-subscriptions.png",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "comic shop locator",
                   url: "buy-comics-shop-locator.png",
-                  current: false,
+                  current: true,
                 },
                 {
                   text: "dc power visa",
                   url: "buy-dc-power-visa.svg",
-                  current: false,
+                  current: true,
                 },
             ]
         }
@@ -100,7 +100,8 @@ export default {
 .shop{
   width: 40px;
   display: flex;
-  margin: 0px  20px  0px  0px;
+  margin: 5px  15px  5px  15px;
+  justify-content: center;
 }
 
 .main {
@@ -110,11 +111,13 @@ export default {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    text-align: center;
     padding: 40px 55px 40px 50px;
     color: white;
+    font-size: 13px;
 
-    &.active {
-      color: rgb(0, 23, 54);
+    &.active:hover {
+      color: rgb(0, 131, 254);
     }
   }
 }
@@ -143,19 +146,26 @@ button {
 }
 
 
+
+
 // responsive
 @media screen and (min-width: 1400px){
   .main {
   background: rgb(43, 117, 255);
+  height: 160px;
 
     a {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 40px 55px 40px 50px;
     color: white;
+    font-size: 13px;
+    
 
-    &.active {
-      color: rgb(0, 23, 54);
+    &.active:hover {
+      color: rgb(0, 0, 0);
+      padding-top: 1px;
     }
   }
 }
@@ -164,6 +174,13 @@ button {
     align-items: center;
     font-size: 10px;
     text-transform:uppercase;
+  }
+
+  .shop{
+    width: 35px;
+    display: flex;
+    margin: 10px  5px  10px  5px;
+    justify-content: center;
   }
 } 
 </style>
