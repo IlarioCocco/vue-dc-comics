@@ -34,9 +34,9 @@ img {
 }
 
 .box {
-    width: calc(100% / 6 - 20px);
-    // margin: 10px 10px 10px 10px;
-    width: calc(100% / 4 - 0px);
+    // width: calc(100% / 6 - 20px);
+    margin: 5px 5px 5px 5px;
+    width: calc(100% / 4 - 10px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,5 +64,4 @@ img {
         // width: calc(100% / 4 - 0px);
     }
 }
-
 </style>
