@@ -109,6 +109,7 @@ export default {
 
     a {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
