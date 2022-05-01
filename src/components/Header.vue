@@ -29,22 +29,22 @@ export default {
             menu: [
                 {
                   text: "charaters",
-                  url: "#",
+                  url: "https://www.dccomics.com/characters",
                   current: true,
                 },
                 {
                   text: "comics",
-                  url: "#",
+                  url: "https://www.dccomics.com/comics",
                   current: true,
                 },
                 {
                   text: "movies",
-                  url: "#",
+                  url: "https://www.dccomics.com/movies",
                   current: true,
                 },
                 {
                   text: "tv",
-                  url: "#",
+                  url: "https://www.dccomics.com/tv",
                   current: true,
                 },
                 {
@@ -89,7 +89,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    // border: 1px solid rgb(0, 0, 0);
+    // border: 5px solid rgb(255, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }
@@ -116,11 +116,14 @@ header {
     text-decoration: none;
     color: black;
     border-bottom: 5px solid rgba(0, 0, 0, 0);
+    
 
     &.active:hover {
       color: rgb(0, 162, 255);
       border-bottom: 5px solid  rgb(0, 162, 255);
       max-width: 100%;
+      // opacity: 100%;
+      // transition: 0.5s;
     }
   }
 }

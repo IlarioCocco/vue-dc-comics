@@ -42,7 +42,7 @@ img {
     justify-content: center;
     color: white;
     // padding: 10px 10px 10px 10px;
-    // border: 1px solid rgba(255, 255, 255, 0.205);
+    // border: 5px solid rgb(0, 213, 255);
     // background-color: rgba(116, 116, 116, 0);
     position: relative;
     clip-path: inset(0% 0% 0% 0%);
@@ -52,7 +52,7 @@ img {
         width: 95%;
         cursor: pointer;
         border: 5px solid rgb(255, 255, 255); 
-        opacity: 25%;
+        opacity: 35%;
     }
 }
 

@@ -36,11 +36,12 @@ section {
 }
 
 .box4 {
-    width: 68.5%;
+    width: 65%;
     height: 100%;
     margin: auto;
     position: relative;
-    // border: 1px solid rgb(255, 0, 0);
+    // border: 5px solid rgb(255, 255, 0);
+    border-top: 0.5px solid white;
 }
 
 button {

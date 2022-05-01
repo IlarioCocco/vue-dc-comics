@@ -45,22 +45,21 @@ export default {
 
 
 <style lang="scss" scoped>
-.box2 {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    // border: 1px solid rgb(0, 119, 255);
-}
-
 .main {
     color: white;
     background-color: rgb(0, 0, 0);
-    // height: 100vh;
     padding: 50px 0px 30px 0px;
     // display: flex;
     // justify-content: center;
     font-size: 20px;
-    // border: 1px solid rgb(85, 255, 0);
+    border: 5px solid rgb(85, 255, 0);
+}
+
+.box2 {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    border: 5px solid rgb(0, 119, 255);
 }
 
 .container {
@@ -108,7 +107,7 @@ export default {
 // responsive
 @media screen and (min-width: 1400px) {
         .box2 {
-        width: 66%;
+        width: 65%;
         height: 100%;
         margin: auto;
         // border: 1px solid rgb(0, 119, 255);

@@ -1,21 +1,21 @@
 <template>
     <main>
-        <div class="load">
+        <div class="bkgLoadButton">
           <div class="box2">
             <button>load more</button>
           </div>
         </div>
         <div class="main">
-            <div class="box3">
-                <ul class="lista">
-                    <li v-for="(link, i) in menu" :key="i">
-                        <a :href="link.url" :class="{active : link.current}">
-                          <img class="shop" :src="require(`@/assets/img/` + link.url)" alt="imagini shop">
-                        {{link.text}}
-                        </a>
-                    </li>
-                </ul>
-            </div>
+          <div class="box3">
+            <ul class="lista">
+              <li v-for="(link, i) in menu" :key="i">
+                <a :href="link.url" :class="{active : link.current}">
+                  <img class="shop" :src="require(`@/assets/img/` + link.url)" alt="imagini shop">
+                  {{link.text}}
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
     </main>
 </template>
@@ -65,34 +65,32 @@ export default {
 
 
 <style lang="scss" scoped>
+// .content {
+//   background-color: rgb(0, 0, 0);
+//   color: white;
+//   padding: 0px 0px 0px 0px; 
+//   display: flex;
+//   font-size: 12px;
+// }
+
 .box2 {
     width: 65%;
     height: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
-    // border: 5px solid rgb(133, 111, 111);
+    border: 5px solid rgb(255, 255, 255);
     align-items: center;
     padding: 30px 0px 30px 0px;
 }
 
-.content {
-  background-color: rgb(0, 0, 0);
-  color: white;
-  padding: 0px 0px 0px 0px; 
-  display: flex;
-  font-size: 12px;
-
-
-}
-
 .box3 {
-  width: 65%;
+  max-width: 65%;
   height: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
-  // border: 5px solid rgb(240, 84, 0);
+  border: 5px solid rgb(240, 84, 0);
   align-items: center;
   padding: 0px 0px 0px 0px;
 }
@@ -130,7 +128,7 @@ export default {
   text-transform:uppercase;
 }
 
-.load {
+.bkgLoadButton {
   background-color: rgb(0, 0, 0);
   color: white;
 }
