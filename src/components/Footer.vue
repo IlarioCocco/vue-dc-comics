@@ -90,7 +90,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: start;
-    border: 5px solid rgb(51, 0, 255);
+    // border: 5px solid rgb(51, 0, 255);
     align-items: center;
     position: relative;
 
@@ -142,7 +142,7 @@ ul {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 5px solid rgb(211, 20, 163);
+    // border: 5px solid rgb(211, 20, 163);
     align-items: center;
     padding: 20px 0px 20px 0px;
 }

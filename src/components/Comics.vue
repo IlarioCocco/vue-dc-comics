@@ -52,14 +52,14 @@ export default {
     // display: flex;
     // justify-content: center;
     font-size: 20px;
-    border: 5px solid rgb(85, 255, 0);
+    // border: 5px solid rgb(85, 255, 0);
 }
 
 .box2 {
     max-width: 100%;
     height: 100%;
     margin: auto;
-    border: 5px solid rgb(0, 119, 255);
+    // border: 5px solid rgb(0, 119, 255);
 }
 
 .container {

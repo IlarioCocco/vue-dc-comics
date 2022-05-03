@@ -89,7 +89,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 5px solid rgb(255, 0, 0);
+    // border: 5px solid rgb(255, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }
@@ -149,7 +149,7 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(255, 0, 0);
+    // border: 1px solid rgb(255, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }

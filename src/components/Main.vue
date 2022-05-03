@@ -79,7 +79,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: center;
-    border: 5px solid rgb(255, 255, 255);
+    // border: 5px solid rgb(255, 255, 255);
     align-items: center;
     padding: 30px 0px 30px 0px;
 }
@@ -90,7 +90,7 @@ export default {
   margin: auto;
   display: flex;
   justify-content: center;
-  border: 5px solid rgb(240, 84, 0);
+  // border: 5px solid rgb(240, 84, 0);
   align-items: center;
   padding: 0px 0px 0px 0px;
 }
