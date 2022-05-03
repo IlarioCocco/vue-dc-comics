@@ -89,7 +89,7 @@ export default {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    // border: 5px solid rgb(255, 0, 0);
+    border: 5px solid rgb(255, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }
@@ -142,14 +142,14 @@ header {
 }
 
 // responsive
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1330px){
   .box1 {
     width: 65%;
     height: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    // border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
     align-items: center;
     padding: 0px 0px 0px 0px;
 }

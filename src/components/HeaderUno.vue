@@ -91,7 +91,7 @@ export default {
 .box1 {
     width: 100%;
     margin: auto;
-    // border: 1px solid rgb(0, 217, 255);
+    border: 1px solid rgb(0, 217, 255);
     padding: 0px 0px 0px 0px;
     position: fixed ;
     background-color: #000000;
@@ -102,7 +102,7 @@ export default {
     background-color: #5e5e5e00;
     // box-shadow: 1px 1px 4px 0 rgb(255, 0, 0);
     position: relative;
-    width: 65%;
+    width: 100%;
     margin: auto;
     z-index: 5;
     // display: flex;
@@ -208,7 +208,7 @@ export default {
 
 
 // responsive
-@media screen and (min-width: 1400px){
+@media screen and (min-width: 1330px){
     .box1 {
         display: none;
     }
